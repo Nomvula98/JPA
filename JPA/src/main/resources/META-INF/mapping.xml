@@ -1,0 +1,24 @@
+<!--This has been achieved by using the following annotations in the StudentEntity class:
+@Entity
+@Table
+@Id
+@Column
+So there is not need for this mapping file-->
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" version="2.0">
+    <description>XML Student Mapping</description>
+<!--
+    <entity class="Student">
+        <table name="student"></table>
+        <attributes>
+            <id name="id">
+                <generated-value strategy="AUTO"/>
+            </id>
+            <basic name ="s_age">
+                <column name="s_age"></column>
+            </basic>
+            <basic name ="s_name">
+                <column name="s_name"></column>
+            </basic>
+        </attributes>
+    </entity>-->
+</entity-mappings>
